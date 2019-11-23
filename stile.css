@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'Lexis';
+    src: url('LexisAltDemo-Book.ttf');
+}
+
+@font-face {
+    font-family: 'Clio';
+    src: url('LeType - ClioHeavy-Heavy.otf');
+}
+
+body
+{
+    background-image: url("bg.bmp")
+}
+
+div
+{
+    text-align: center;
+    margin:auto;
+}
+
+.end
+{
+    font-family: Clio;
+    background-color:#ff6600;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    float: right;
+    border-radius: 60px;
+}
+
+.borderless
+{
+    font-family: Clio;
+  background-color:#ff6600;
+  margin:auto;
+  margin-top: 15px;
+  border-radius: 60px;
+  margin-bottom: 15px;
+}
+
+.borders
+{
+  background-color: #ff6600;
+  margin: auto;
+  border-style: solid;
+  border-radius: 6px;
+}
+
+td
+{
+  font-family: Lexis;
+  font-size: 20px;
+}
+
+th
+{
+  font-family: Clio;
+  font-size: 40px;
+}
+
+tr, th, td
+{
+  text-align: center;
+  margin: auto;
+}
